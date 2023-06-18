@@ -1,13 +1,14 @@
 # Commit Convention
 
-커밋 타입 작성 시 이모지는 필수이며, 글자와 이모티콘 또는 이모지만 작성하여 표현합니다.
+커밋 타입 작성 시 글자 또는 이모지만 작성하여 표현합니다.<br/>
+그리고 괄호 사이에 이슈번호를 작성합니다.<br/>
 커밋 메시지는 영문 명령 형식으로 작성합니다.
 
 ### Good
-> `🧩feat :: implement login logic` or `🧩 :: implement login logic`
+> `feat :: (#11) implement login logic` or `🧩 :: (#11) implement login logic`
 
 ### Bad
-> `feat :: implement login logic` or `🧩feat :: login logic`
+> `feat :: implement login logic` or `🧩 :: login logic`
 
 ---
 
@@ -33,14 +34,12 @@
 ## Issue, PR
 이슈 메시지의 형식에는 제한이 없으며, 주로 기능 구현에 관해 작성합니다.
 
-PR 시에는 이모티콘과 커밋메시지(🖇PR) 둘 모두 작성합니다.<br/>
-괄호 내부에는 #과 이슈 번호를 작성합니다.<br/>
-PR 메시지는 이슈 메시지와 동일하게 작성합니다.
+PR 메시지는 이슈 메시지와 동일하게 작성합니다.<br/>
+PR 메시지은 커밋규칙의 형식과 동일합니다.
+
 ### Good
-> `🖇PR :: (#32) 로그인 로직 구현` or `🖇PR :: (#32) implement login logic)`
+> `🖇 :: (#32) 로그인 로직 구현` or `PR :: (#32) implement login logic)`
 
 ### Bad
-> `🖇 :: (#32) 로그인 로직 구현` or `PR :: (#32) 로그인 로직 구현`
-
-| PR :: | 🖇 | 🖇PR :: (#{issue number}) {pull request message} |
-| --- | --- | --- |
+> `🖇 :: 로그인 로직 구현` or `PR :: 로그인 로직 구현`
+> 
