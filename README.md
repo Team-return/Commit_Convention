@@ -1,8 +1,8 @@
 # Commit Convention
 
-커밋 타입 작성 시 글자 또는 이모지만 작성하여 표현합니다.
+커밋 타입 작성 시 글자 또는 이모지만 작성하여 표현합니다.<br/>
 그리고 괄호 사이에 이슈번호를 작성합니다.<br/>
-커밋 메시지는 영문 명령 형식으로 작성합니다.<br/>
+커밋 메시지는 영문 명령 형식으로 작성합니다.
 
 ### Good
 > `feat :: (#11) implement login logic` or `🧩 :: (#11) implement login logic`
